@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+	<select name="" id="sel">
+		<option value="">请选择1</option>
+		<option value="">请选择2</option>
+		<option value="">请选择3</option>
+	</select>
+</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$("#sel").change(function(event) {
+			 //document.body.focus(); 
+			 $(this).blur();
+		});
+	})
+</script>
